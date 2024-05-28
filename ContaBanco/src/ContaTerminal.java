@@ -16,12 +16,12 @@ public class ContaTerminal {
         double saldo = 237.48;
 
         System.out.println("Bem vindo ao Banco DIO, Por favor, informe o seu nome: ");
-        nomeCliente = input.next();
+        nomeCliente = input.nextLine();
         System.out.println("Por favor, digite o número da sua conta: ");
         conta = input.nextInt();
         System.out.println("Por favor, digite o número da Agência: ");
         agencia = input.next();
-        System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " +  agencia +", conta " + conta + "e seu saldo de " + saldo + "já está disponível para saque." );
+        System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é: " +  agencia +", conta: " + conta + " e seu saldo de R$ " + saldo + " já está disponível para saque." );
         
 
         input.close();
